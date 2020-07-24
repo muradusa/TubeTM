@@ -114,6 +114,8 @@ const images = [
   },
 ];
 
+// delete
+
 
 export default function ProductCategories() {
   const classes = useStyles();
