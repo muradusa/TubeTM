@@ -114,7 +114,8 @@ const images = [
   },
 ];
 
-// delete
+
+// Delete later for github
 
 
 export default function ProductCategories() {
