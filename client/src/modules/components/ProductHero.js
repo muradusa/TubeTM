@@ -3,6 +3,9 @@ import { Typography, Button, Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import image from "../../images/construction.png";
 
+//delete later
+
+
 // const backgroundimage = "https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg";
 
 const useStyles = makeStyles({
