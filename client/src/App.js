@@ -1,27 +1,9 @@
-import React from 'react';
-import AppBar from "./modules/components/AppBar";
-import ProductHero from "./modules/components/ProductHero";
-import ProductValues from "./modules/components/ProductValues";
-import ProductCategories from "./modules/components/ProductCategories";
-import ProductTestimonials from "./modules/components/ProductTestimonials";
-import ProductCTA from "./modules/components/ProductCTA";
-import ProductSmokingHero from "./modules/components/ProductSmokingHero";
-import Footer from "./modules/components/Footer";
-
-
+import React from "react";
 
 function App() {
   return (
     <div>
-      <AppBar />
-      <ProductHero />
-      <ProductTestimonials />
-      <ProductCategories />
-      <ProductValues />
-      <ProductCTA />
-      <ProductSmokingHero />
-      <Footer />
-      
+      <h1>This is a landing Page</h1>
     </div>
   );
 }
