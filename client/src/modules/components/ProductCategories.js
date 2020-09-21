@@ -1,12 +1,12 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { ButtonBase, Container, Typography, Divider } from "@material-ui/core";
-import img1 from "../../images/180Grand.png";
-import img2 from "../../images/APP.png";
-import img3 from "../../images/BerkleyLab.png";
-import img4 from "../../images/Government.png";
-import img5 from "../../images/Military.png";
-import img6 from "../../images/PublicWorks.png";
+// import img1 from "../../images/180Grand.png";
+// import img2 from "../../images/APP.png";
+// import img3 from "../../images/BerkleyLab.png";
+// import img4 from "../../images/Government.png";
+// import img5 from "../../images/Military.png";
+// import img6 from "../../images/PublicWorks.png";
 import { green } from "@material-ui/core/colors";
 
 const useStyles = makeStyles({
@@ -35,11 +35,9 @@ const useStyles = makeStyles({
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-
   },
   imageTitle: {
     position: "relative",
-    
   },
 
   imageSrc: {
@@ -50,19 +48,18 @@ const useStyles = makeStyles({
     bottom: 0,
     backgroundSize: "cover",
     backgroundPosition: "center 40%",
-   
   },
-  imageMarked : {
+  imageMarked: {
     height: 3,
     width: 18,
     // background: green,
-    position: 'absolute',
+    position: "absolute",
     bottom: -2,
-    left: 'calc(50% - 9px)',
+    left: "calc(50% - 9px)",
     // transition: ,
   },
   text: {
-    color: "white"
+    color: "white",
   },
 });
 
@@ -114,9 +111,7 @@ const images = [
   },
 ];
 
-
 // Delete later for github
-
 
 export default function ProductCategories() {
   const classes = useStyles();
@@ -126,32 +121,40 @@ export default function ProductCategories() {
       <ButtonBase
         key={image.title}
         className={classes.imageWrapper}
-        style={{ width: image.width}}
+        style={{ width: image.width }}
       >
         <div
-        className={classes.imageSrc}
-        style={{ backgroundImage: `url(${image.name})` }}
+          className={classes.imageSrc}
+          style={{ backgroundImage: `url(${image.name})` }}
         />
-        <div className={classes.imageBackdrop}/>
+        <div className={classes.imageBackdrop} />
         <div className={classes.imageButton}>
-          <Typography component="h3" variant="h6" color="maroon" className={classes.imageTitle}>
+          <Typography
+            component="h3"
+            variant="h6"
+            color="maroon"
+            className={classes.imageTitle}
+          >
             {image.title}
             <div className={classes.imageMarked} />
           </Typography>
         </div>
       </ButtonBase>
-      
-    )
+    );
   });
 
   return (
     <Container className={classes.root}>
-      <Typography variant="h3" align="center" component="h2" marked="center" className={classes.text}>
+      <Typography
+        variant="h3"
+        align="center"
+        component="h2"
+        marked="center"
+        className={classes.text}
+      >
         Completed projects
       </Typography>
-      <div className={classes.images}>
-        {render}
-      </div>
+      <div className={classes.images}>{render}</div>
     </Container>
   );
 }
