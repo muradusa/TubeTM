@@ -1,0 +1,48 @@
+.header__top {
+  display: flex;
+  padding-top: 20px;
+}
+
+.header__topLeft {
+  display: flex;
+  justify-content: flex-start;
+  flex: 0.8;
+  padding-left: 20px;
+}
+
+.header__topRight {
+  display: flex;
+  justify-content: flex-end;
+  flex: 0.2;
+  padding-right: 20px;
+}
+
+.header__topLeftInfo {
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+}
+
+.header__bottom {
+  display: flex;
+  padding-top: 10px;
+}
+
+.header__bottomRight {
+  display: flex;
+  justify-content: flex-end;
+  flex: 0.6;
+  align-items: center;
+  padding-right: 20px;
+}
+.header__bottomLeft {
+  display: flex;
+  padding-left: 20px;
+
+  flex: 0.4;
+}
+
+.header__bottomRight > h2 {
+  padding-right: 5px;
+  text-transform: capitalize;
+}
