@@ -37,11 +37,11 @@ function Header() {
           <img src={logo} alt="" />
         </div>
         <div className="header__bottomRight">
-          <h2>home</h2>
-          <h2>services</h2>
-          <h2>portfolio</h2>
-          <h2>abous us</h2>
-          <h2>contat us</h2>
+          <h3>home</h3>
+          <h3>services</h3>
+          <h3>portfolio</h3>
+          <h3>abous us</h3>
+          <h3>contact us</h3>
         </div>
       </div>
     </div>

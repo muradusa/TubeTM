@@ -42,7 +42,7 @@
   flex: 0.4;
 }
 
-.header__bottomRight > h2 {
-  padding-right: 5px;
+.header__bottomRight > h3 {
+  padding-right: 10px;
   text-transform: capitalize;
 }
