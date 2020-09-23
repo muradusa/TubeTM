@@ -1,4 +1,7 @@
 .services {
+  /* flex-wrap: wrap; */
+}
+
+.services__one {
   display: flex;
-  flex-wrap: wrap;
 }

@@ -36,6 +36,7 @@ function Services() {
       description: "This is going to be description of our services",
     },
   ];
+
   return (
     <div className="services">
       {services.map((service) => (

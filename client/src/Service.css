@@ -1,8 +1,6 @@
 .service {
   display: flex;
-  flex: 0.33;
-  height: 200px;
-  width: 200px;
+  background-color: khaki;
 }
 
 .service__container {
