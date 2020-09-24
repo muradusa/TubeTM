@@ -1,0 +1,14 @@
+/* .photoGallery {
+    display: flex;
+    flex-direction: column;
+
+} */
+
+.photoGallery__title {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery:hover {
+  color: teal;
+}

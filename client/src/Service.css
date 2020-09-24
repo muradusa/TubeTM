@@ -1,6 +1,6 @@
 .service {
   display: flex;
-  background-color: khaki;
+  background-color: white;
 }
 
 .service__container {
@@ -8,8 +8,22 @@
   flex-direction: column;
   align-items: center;
   background-color: honeydew;
+  margin: 5px;
 }
 .service__svg {
   height: 75px;
   width: 75px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.service__title {
+  padding-bottom: 20px;
+}
+
+.service__description {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;
 }
