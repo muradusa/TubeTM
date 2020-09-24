@@ -1,0 +1,19 @@
+.counter {
+  font-size: 40px;
+}
+
+.counter__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.counter__number {
+  display: flex;
+}
+/* .counter__number > span {
+  display: flex;
+} */
+
+.number {
+  margin-right: 10px;
+}

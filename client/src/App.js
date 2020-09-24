@@ -4,6 +4,7 @@ import Header from "./Header";
 import Slider from "./Slider";
 import Services from "./Services";
 import PhotoGallery from "./PhotoGallery";
+import WhyChooseUs from "./WhyChooseUs";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Slider />
       <Services />
       <PhotoGallery />
+      <WhyChooseUs />
     </div>
   );
 }

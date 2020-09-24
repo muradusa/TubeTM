@@ -1,3 +1,11 @@
+.header {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  z-index: 100;
+}
+
 .header__top {
   display: flex;
   padding-top: 20px;
