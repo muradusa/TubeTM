@@ -1,0 +1,9 @@
+.sponsors {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.sponsors__item {
+  background: white;
+}

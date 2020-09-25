@@ -5,6 +5,8 @@ import Slider from "./Slider";
 import Services from "./Services";
 import PhotoGallery from "./PhotoGallery";
 import WhyChooseUs from "./WhyChooseUs";
+import Testimonials from "./Testimonials";
+import Sponsors from "./Sponsors";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Services />
       <PhotoGallery />
       <WhyChooseUs />
+      <Testimonials />
+      <Sponsors />
     </div>
   );
 }

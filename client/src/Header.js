@@ -6,7 +6,7 @@ import LocationOnIcon from "@material-ui/icons/LocationOn";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import InstagramIcon from "@material-ui/icons/Instagram";
-import logo from "../src/images/logo.png";
+import logo from "./images/logo.png";
 
 function Header() {
   return (
