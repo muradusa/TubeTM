@@ -7,6 +7,8 @@ import PhotoGallery from "./PhotoGallery";
 import WhyChooseUs from "./WhyChooseUs";
 import Testimonials from "./Testimonials";
 import Sponsors from "./Sponsors";
+import Footer from "./Footer";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
       <WhyChooseUs />
       <Testimonials />
       <Sponsors />
+      <Footer />
     </div>
   );
 }
