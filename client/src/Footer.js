@@ -46,6 +46,9 @@ function Footer() {
           </div>
         </div>
       </div>
+      <div className="footer__bottom">
+        <p>2020 W.E. Lyons Construction. All Rights Reserved</p>
+      </div>
     </div>
   );
 }

@@ -19,7 +19,7 @@ function Header() {
           </div>
           <div className="header__topLeftInfo">
             <EmailIcon />
-            <p>info@welyons</p>
+            <p>info@welyons.com</p>
           </div>
           <div className="header__topLeftInfo">
             <LocationOnIcon />

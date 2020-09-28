@@ -8,7 +8,9 @@
 
 .header__top {
   display: flex;
-  padding-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: maroon;
 }
 
 .header__topLeft {
@@ -16,6 +18,7 @@
   justify-content: flex-start;
   flex: 0.8;
   padding-left: 20px;
+  color: white;
 }
 
 .header__topRight {
@@ -23,6 +26,7 @@
   justify-content: flex-end;
   flex: 0.2;
   padding-right: 20px;
+  color: white;
 }
 
 .header__topLeftInfo {
@@ -31,9 +35,14 @@
   align-items: center;
 }
 
+.header__topLeftInfo p {
+  padding-left: 5px;
+}
+
 .header__bottom {
   display: flex;
   padding-top: 10px;
+  background: white;
 }
 
 .header__bottomRight {

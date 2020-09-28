@@ -1,17 +1,26 @@
 .footer {
   display: flex;
   flex-direction: column;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: maroon;
 }
 
 .footer__nav {
   display: flex;
   justify-content: space-around;
+  margin-top: 10px;
+  color: white;
 }
 
 .footer__links {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.footer__links > a {
+  color: white;
 }
 
 .footer__social {
@@ -21,4 +30,19 @@
 .footer__socialItem {
   padding-left: 20px;
   padding-right: 20px;
+  color: white;
+}
+.footer__socialItem:hover {
+  color: blue;
+  transform: scale(1.5);
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.footer__bottom p {
+  color: white;
 }

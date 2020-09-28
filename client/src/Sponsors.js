@@ -7,16 +7,30 @@ function Sponsors() {
   return (
     <div className="sponsors">
       <Grid container spacing={6}>
-        <Grid classname="sponsors__item" item xs={12} sm={6} lg={3}>
+        <Grid item xs={12} sm={6} lg={3}>
           <img src={sponsor} alt="" />
         </Grid>
-        <Grid classname="sponsors__item" item xs={12} sm={6} lg={3}>
+        <Grid item xs={12} sm={6} lg={3}>
           <img src={sponsor} alt="" />
         </Grid>
-        <Grid classname="sponsors__item" item xs={12} sm={6} lg={3}>
+        <Grid item xs={12} sm={6} lg={3}>
           <img src={sponsor} alt="" />
         </Grid>
-        <Grid classname="sponsors__item" item xs={12} sm={6} lg={3}>
+        <Grid item xs={12} sm={6} lg={3}>
+          <img src={sponsor} alt="" />
+        </Grid>
+      </Grid>
+      <Grid container spacing={6}>
+        <Grid item xs={12} sm={6} lg={3}>
+          <img src={sponsor} alt="" />
+        </Grid>
+        <Grid item xs={12} sm={6} lg={3}>
+          <img src={sponsor} alt="" />
+        </Grid>
+        <Grid item xs={12} sm={6} lg={3}>
+          <img src={sponsor} alt="" />
+        </Grid>
+        <Grid item xs={12} sm={6} lg={3}>
           <img src={sponsor} alt="" />
         </Grid>
       </Grid>
