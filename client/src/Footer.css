@@ -33,8 +33,8 @@
   color: white;
 }
 .footer__socialItem:hover {
-  color: blue;
-  transform: scale(1.5);
+  color: #e8ae0c;
+  transform: scale(2);
 }
 
 .footer__bottom {

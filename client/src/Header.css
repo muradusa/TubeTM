@@ -29,10 +29,17 @@
   color: white;
 }
 
+/* .header__topRight > .MuiIcon:hover {
+  color: #e8ae0c;
+} */
+
 .header__topLeftInfo {
   display: flex;
   padding-left: 15px;
   align-items: center;
+}
+.header__topLeftInfo:hover {
+  color: #e8ae0c;
 }
 
 .header__topLeftInfo p {
@@ -52,6 +59,11 @@
   align-items: center;
   padding-right: 20px;
 }
+
+.header__bottomRight h3:hover {
+  color: maroon;
+}
+
 .header__bottomLeft {
   display: flex;
   padding-left: 20px;

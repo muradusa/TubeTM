@@ -7,5 +7,10 @@
 }
 
 .services__row {
+  margin-bottom: 16px;
+}
+
+.grid__container {
   display: flex;
+  justify-content: center;
 }
