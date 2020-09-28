@@ -2,7 +2,7 @@ import React from "react";
 import "./Services.css";
 import Service from "./Service";
 import Grid from "@material-ui/core/Grid";
-import { ReactComponent as ReactSVG1 } from "./images/sketch.svg";
+import { ReactComponent as ReactSVG1 } from "../../images/sketch.svg";
 
 function Services() {
   return (

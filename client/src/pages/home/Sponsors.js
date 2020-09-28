@@ -1,7 +1,7 @@
 import React from "react";
 import "./Sponsors.css";
 import Grid from "@material-ui/core/Grid";
-import sponsor from "./images/logo.png";
+import sponsor from "../../images/logo.png";
 
 function Sponsors() {
   return (
