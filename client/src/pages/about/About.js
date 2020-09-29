@@ -82,13 +82,21 @@ function About() {
               <Employee photo={greg} name="Greg Lyons" title="President/CEO" />
             </Grid>
             <Grid item xs={12} sm={6} md={3}>
-              <Employee photo={greg} name="Greg Lyons" title="President/CEO" />
+              <Employee
+                photo={greg}
+                name="Kevin Butler"
+                title="Preconstruction Manager"
+              />
             </Grid>
             <Grid item xs={12} sm={6} md={3}>
-              <Employee photo={greg} name="Greg Lyons" title="President/CEO" />
+              <Employee
+                photo={greg}
+                name="James Scott"
+                title="Sr. Project Manager"
+              />
             </Grid>
             <Grid item xs={12} sm={6} md={3}>
-              <Employee photo={greg} name="Greg Lyons" title="President/CEO" />
+              <Employee photo={greg} name="Preet" title="Controller" />
             </Grid>
           </Grid>
         </div>
