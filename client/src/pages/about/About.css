@@ -1,0 +1,32 @@
+.about__banner img {
+  height: 200px;
+  width: 100%;
+}
+
+.about__sectionImage img {
+  height: 500px;
+  object-fit: contain;
+}
+
+.about__title p {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.about__sectionText {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.team__row {
+  margin-left: 15px;
+}
+
+.about__teamTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 700;
+}

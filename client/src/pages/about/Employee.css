@@ -1,0 +1,28 @@
+.employee {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.employee__photo img {
+  border-radius: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.employee__name {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.employee__title {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.employee__social {
+  padding-bottom: 10px;
+  display: flex;
+}
