@@ -75,3 +75,9 @@
   padding-right: 10px;
   text-transform: capitalize;
 }
+
+.header__link {
+  text-decoration: none;
+  color: black;
+  margin-right: 5px;
+}

@@ -7,6 +7,7 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import logo from "./images/logo.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -37,10 +38,14 @@ function Header() {
           <img src={logo} alt="" />
         </div>
         <div className="header__bottomRight">
-          <h3>home</h3>
+          <Link className="header__link" to="/">
+            <h3>Home</h3>
+          </Link>
           <h3>services</h3>
           <h3>portfolio</h3>
-          <h3>abous us</h3>
+          <Link className="header__link" to="/about">
+            <h3>About</h3>
+          </Link>
           <h3>contact us</h3>
         </div>
       </div>
