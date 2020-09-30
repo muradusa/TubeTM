@@ -46,7 +46,10 @@ function Header() {
           <Link className="header__link" to="/about">
             <h3>About</h3>
           </Link>
-          <h3>contact us</h3>
+
+          <Link className="header__link" to="/contact">
+            <h3>Contact Us</h3>{" "}
+          </Link>
         </div>
       </div>
     </div>

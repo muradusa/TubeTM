@@ -7,12 +7,7 @@ import greg from "../../images/greg.png";
 function About() {
   return (
     <div className="about">
-      <div className="about__banner">
-        {/* <img
-          src="https://images.unsplash.com/photo-1528238646472-f2366160b6c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
-          alt=""
-        /> */}
-      </div>
+      <div className="about__banner"></div>
       <div className="about__title">
         <p>About Us</p>
       </div>

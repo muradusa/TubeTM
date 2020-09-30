@@ -5,12 +5,18 @@ import Home from "./pages/home/Home";
 import Footer from "./Footer";
 import About from "./pages/about/About";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Contact from "./pages/contact/Contact";
 
 function App() {
   return (
     <Router>
       <div className="app">
         <Switch>
+          <Route path="/contact">
+            <Header />
+            <Contact />
+            <Footer />
+          </Route>
           <Route path="/about">
             <Header />
             <About />

@@ -18,7 +18,8 @@
   display: flex;
   justify-content: center;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 1000;
+  color: maroon;
 }
 .about__section {
   margin-left: 100px;
