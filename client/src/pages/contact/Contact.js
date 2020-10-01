@@ -5,7 +5,7 @@ import "./Contact.css";
 function Contact() {
   return (
     <div className="contact">
-      <div className="contact__bannerImg">
+      <div className="contact__banner">
         <img
           src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
           alt=""

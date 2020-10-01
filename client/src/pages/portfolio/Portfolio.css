@@ -1,0 +1,29 @@
+.portfolio {
+}
+
+.portfolio__banner {
+  height: 250px;
+  width: 100%;
+}
+
+.portfolio__banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.portfolio__title {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.portfolio__title p {
+  font-size: 30px;
+  font-weight: 1000;
+  color: maroon;
+}
+
+.portfolio__section {
+  margin-bottom: 20px;
+}

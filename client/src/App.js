@@ -6,12 +6,18 @@ import Footer from "./Footer";
 import About from "./pages/about/About";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Contact from "./pages/contact/Contact";
+import Portfolio from "./pages/portfolio/Portfolio";
 
 function App() {
   return (
     <Router>
       <div className="app">
         <Switch>
+          <Route path="/portfolio">
+            <Header />
+            <Portfolio />
+            <Footer />
+          </Route>
           <Route path="/contact">
             <Header />
             <Contact />

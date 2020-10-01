@@ -4,12 +4,12 @@
   align-items: center; */
 }
 
-.contact__bannerImg {
+.contact__banner {
   height: 250px;
   width: 100%;
 }
 
-.contact__bannerImg img {
+.contact__banner img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -61,8 +61,18 @@
 .contact__form input {
   margin-bottom: 10px;
   padding-bottom: 10px;
+  border: none;
+  cursor: pointer;
 }
 
+.contact__form button {
+  color: white;
+  background-color: maroon;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
 .form {
   display: flex;
   flex-direction: column;

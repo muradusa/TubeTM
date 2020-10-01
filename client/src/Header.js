@@ -42,7 +42,9 @@ function Header() {
             <h3>Home</h3>
           </Link>
           <h3>services</h3>
-          <h3>portfolio</h3>
+          <Link className="header__link" to="/portfolio">
+            <h3>Portfolio</h3>
+          </Link>
           <Link className="header__link" to="/about">
             <h3>About</h3>
           </Link>
