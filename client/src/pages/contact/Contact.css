@@ -1,7 +1,7 @@
 .contact {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
 }
 
 .contact__bannerImg {
@@ -28,13 +28,24 @@
 }
 
 .contact__section {
-  width: 1000px;
+  /* min-width: 1000px; */
+  width: auto;
   padding-top: 20px;
   padding-bottom: 50px;
   padding-left: auto;
   padding-right: auto;
   background-color: rgb(233, 227, 227);
 }
+
+.grid__container {
+  display: flex;
+  justify-content: center;
+}
+
+.grid__containerItem {
+  /* background: white; */
+}
+
 .contact__map {
   min-height: 350px;
   height: 100%;
