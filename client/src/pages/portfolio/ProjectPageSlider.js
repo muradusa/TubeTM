@@ -1,8 +1,10 @@
 import React from "react";
+import "./ProjectPageSlider.css";
 import HeroSlider, { Slide, Nav, OverlayContainer } from "hero-slider";
+import project1 from "../../images/project1.png";
+
 // Images
-const bogliasco =
-  "https://images.unsplash.com/photo-1529792083865-d23889753466?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80";
+// const bogliasco = { project1 };
 const countyClare =
   "https://images.unsplash.com/photo-1563166423-482a8c14b2d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80";
 const craterRock =
@@ -31,19 +33,23 @@ function ProjectPageSlider() {
           shouldAutoplay: true,
           shouldDisplayButtons: true,
           autoplayDuration: 5000,
-          height: "60vh",
+          height: "80vh",
+
           sliderColor: "black",
         }}
       >
         <Slide
           background={{
-            backgroundImage: giauPass,
+            backgroundImage: project1,
             backgroundAttachment: "fixed",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
           }}
         />
         <Slide
           background={{
-            backgroundImage: bogliasco,
+            backgroundImage: giauPass,
             backgroundAttachment: "fixed",
           }}
         />
