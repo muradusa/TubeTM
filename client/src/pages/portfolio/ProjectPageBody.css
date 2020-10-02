@@ -19,14 +19,9 @@
   display: flex;
   flex-direction: column;
   flex: 0.7;
-  background: darkkhaki;
 }
 
 .projectPageBody__descriptionRight {
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-  background: darkgoldenrod;
   flex: 0.3;
 }
 
@@ -38,12 +33,15 @@
 
 .location__container {
   display: flex;
+  padding-left: 22px;
 }
 
-.location {
-  background: chartreuse;
+.location h3 {
+  padding-left: 5px;
 }
 
 .services {
-  background: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
