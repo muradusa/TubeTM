@@ -7,12 +7,19 @@ import About from "./pages/about/About";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Contact from "./pages/contact/Contact";
 import Portfolio from "./pages/portfolio/Portfolio";
+import ProjectPage from "./pages/portfolio/ProjectPage";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <Router>
       <div className="app">
         <Switch>
+          <Route path="/portfolio/project1">
+            <Header />
+            <ProjectPage />
+            <Footer />
+          </Route>
           <Route path="/portfolio">
             <Header />
             <Portfolio />

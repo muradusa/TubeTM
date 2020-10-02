@@ -1,0 +1,49 @@
+.projectPageBody__title {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.projectPageBody__title p {
+  font-size: 30px;
+  font-weight: 1000;
+  color: maroon;
+}
+
+.projectPageBody__description {
+  display: flex;
+}
+
+.projectPageBody__descriptionLeft {
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+  background: darkkhaki;
+}
+
+.projectPageBody__descriptionRight {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  background: darkgoldenrod;
+  flex: 0.3;
+}
+
+.projectPageBody__description h3 {
+  font-size: 25px;
+  font-weight: 1000;
+  color: maroon;
+}
+
+.location__container {
+  display: flex;
+}
+
+.location {
+  background: chartreuse;
+}
+
+.services {
+  background: cornflowerblue;
+}

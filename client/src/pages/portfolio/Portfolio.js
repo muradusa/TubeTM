@@ -3,6 +3,7 @@ import "./Portfolio.css";
 import project1 from "../../images/project1.png";
 import { Grid } from "@material-ui/core";
 import Project from "./Project";
+import { Link } from "react-router-dom";
 
 function Portfolio() {
   return (
@@ -19,7 +20,9 @@ function Portfolio() {
       <div className="portfolio__section">
         <Grid container className="portfolio__container" spacing={2}>
           <Grid item className="portfolio__item" xs={12} sm={6} md={3}>
-            <Project img={project1} title="Project 1" />
+            <Link to="/portfolio/project1">
+              <Project img={project1} title="Project 1" />
+            </Link>
           </Grid>
           <Grid item className="portfolio__item" xs={12} sm={6} md={3}>
             <Project img={project1} title="Project 2" />
