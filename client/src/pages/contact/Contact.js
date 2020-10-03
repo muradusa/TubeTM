@@ -29,24 +29,35 @@ function Contact() {
           </Grid>
           <Grid className="grid__containerItem" item xs={12} sm={12} md={6}>
             <div className="contact__form">
-              <form className="form" action="submit">
+              <form name="contact" action="/contact" method="post">
+                <input type="hidden" name="form-name" value="contact" />
                 <p>Name</p>
-                <input type="text" placeholder="Name" />
+                <input
+                  required
+                  type="text"
+                  name="name"
+                  placeholder="Your Name"
+                />
                 <p>Email</p>
-                <input type="email" placeholder="Email" />
+                <input
+                  required
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                />
                 <p>Subject</p>
-                <input
-                  className="contact__subject"
-                  type="text"
-                  placeholder=""
-                />
+                <input name="subject" type="text" placeholder="Subject" />
                 <p>Message</p>
-                <input
-                  className="contact__message"
-                  type="text"
+                <textarea
+                  required
+                  name="message"
                   placeholder="Message"
-                />
-                <button className="contact__button">Send</button>
+                  cols="30"
+                  rows="10"
+                ></textarea>
+                <button type="submit" className="contact__button">
+                  Send
+                </button>
               </form>
             </div>
           </Grid>

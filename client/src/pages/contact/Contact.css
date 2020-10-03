@@ -49,10 +49,13 @@
 .contact__map {
   min-height: 350px;
   height: 100%;
+  margin-left: 100px;
 }
 
 .contact__form {
   background-color: rgb(233, 227, 227);
+
+  margin-right: 100px;
 }
 
 .contact__form p {
