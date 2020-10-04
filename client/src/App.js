@@ -10,8 +10,6 @@ import Portfolio from "./pages/portfolio/Portfolio";
 import ProjectPage from "./pages/portfolio/ProjectPage";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
-//delete later
-
 function App() {
   return (
     <Router>
