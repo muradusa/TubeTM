@@ -13,21 +13,21 @@ function Services() {
 
       <div className="services__row">
         <Grid className="grid__container" container spacing={2}>
-          <Grid item xs={12} sm={6} lg={4}>
+          <Grid item xs={12} sm={4} lg={4}>
             <Service
               svg={<ReactSVG1 />}
               title="General Contracting"
               description="This is going to be description of our services This is going to be description of our services"
             />
           </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
+          <Grid item xs={12} sm={4} lg={4}>
             <Service
               svg={<ReactSVG1 />}
               title="General Contracting"
               description="This is going to be description of our services This is going to be description of our services"
             />
           </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
+          <Grid item xs={12} sm={4} lg={4}>
             <Service
               svg={<ReactSVG1 />}
               title="General Contracting"
@@ -38,21 +38,21 @@ function Services() {
       </div>
       <div className="services__row">
         <Grid className="grid__container" container spacing={2}>
-          <Grid item xs={12} sm={6} lg={4}>
+          <Grid item xs={12} sm={4} lg={4}>
             <Service
               svg={<ReactSVG1 />}
               title="General Contracting"
               description="This is going to be description of our services This is going to be description of our services"
             />
           </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
+          <Grid item xs={12} sm={4} lg={4}>
             <Service
               svg={<ReactSVG1 />}
               title="General Contracting"
               description="This is going to be description of our services This is going to be description of our services"
             />
           </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
+          <Grid item xs={12} sm={4} lg={4}>
             <Service
               svg={<ReactSVG1 />}
               title="General Contracting"
