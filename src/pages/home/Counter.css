@@ -1,13 +1,17 @@
 .counter {
   font-size: 40px;
+  background-color: violet;
 }
 
 .counter__container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: white;
+
+  background: maroon;
   margin: 5px;
+  color: white;
+  border-radius: 15px;
 }
 .counter__number {
   display: flex;

@@ -59,28 +59,6 @@ function Header() {
           </Link>
         </Grid>
       </Grid>
-
-      {/* <div className="header__bottom">
-        <div className="header__bottomLeft">
-          <img src={logo} alt="" />
-        </div>
-        <div className="header__bottomRight">
-          <Link className="header__link" to="/">
-            <h3>Home</h3>
-          </Link>
-          <h3>services</h3>
-          <Link className="header__link" to="/portfolio">
-            <h3>Portfolio</h3>
-          </Link>
-          <Link className="header__link" to="/about">
-            <h3>About</h3>
-          </Link>
-
-          <Link className="header__link" to="/contact">
-            <h3>Contact Us</h3>{" "}
-          </Link>
-        </div>
-      </div> */}
     </div>
   );
 }

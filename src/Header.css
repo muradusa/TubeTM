@@ -45,6 +45,7 @@
 
 .header__bottom {
   display: flex;
+  justify-content: center;
   padding-top: 10px;
   background: white;
 }
@@ -52,13 +53,7 @@
 .header__bottomRight {
   display: flex;
   justify-content: flex-end;
-  /* flex: 0.6; */
-  align-items: center;
   padding-right: 20px;
-}
-
-.header__bottomRight h3:hover {
-  color: maroon;
 }
 
 .header__bottomLeft {
@@ -77,4 +72,10 @@
   text-decoration: none;
   color: black;
   margin-right: 5px;
+  display: grid;
+  place-items: center;
+}
+
+.header__link h3:hover {
+  color: maroon;
 }
