@@ -7,7 +7,7 @@ function WhyChooseUs() {
   return (
     <div className="whyChooseUs">
       <div className="whyChooseUs__title">
-        <h2>Why Choose Us</h2>
+        <p>Why Choose Us</p>
       </div>
       <Grid className="whyChooseUs__counter" container spacing={2}>
         <Grid item xs={12} sm={6} md={3}>
@@ -23,12 +23,6 @@ function WhyChooseUs() {
           <Counter number={43} text="Employees" />
         </Grid>
       </Grid>
-      {/* <div className="whyChooseUs__counter">
-        <Counter number={100} text="Projects" />
-        <Counter number={198} text="Happy Customers" />
-        <Counter number={94} text="Years in Business" />
-        <Counter number={43} text="Employees" />
-      </div> */}
     </div>
   );
 }

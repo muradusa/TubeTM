@@ -38,10 +38,10 @@ function Slider() {
       >
         <OverlayContainer>
           <Wrapper>
-            <Title>Basic Slider</Title>
-            <Subtitle>Slides' background attachment set to fixed</Subtitle>
-            <Subtitle>Contact us now</Subtitle>
-            <button>Click Me</button>
+            <Title>W.E. Lyons Construction</Title>
+            <Subtitle>Serving bayarea since 1924</Subtitle>
+            {/* <Subtitle>Contact us now</Subtitle> */}
+            <button>Contact Us</button>
           </Wrapper>
         </OverlayContainer>
 

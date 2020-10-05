@@ -1,16 +1,24 @@
 .services {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  place-items: center;
   margin-left: 5px;
   margin-right: 5px;
 }
 
+.services__title {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 1000;
+  color: maroon;
+  padding: 20px;
+}
 .services__row {
   margin-bottom: 16px;
 }
-
+/* 
 .grid__container {
   display: flex;
   justify-content: center;
-}
+} */

@@ -22,7 +22,7 @@ function PhotoGallery() {
   return (
     <div className="photoGallery">
       <div className="photoGallery__title">
-        <h2>Completed Projects</h2>
+        <p>Completed Projects</p>
       </div>
       <div className="photoGallery__body">
         <Gallery className="gallery" photos={photos} onClick={openLightbox} />

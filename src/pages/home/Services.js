@@ -8,7 +8,7 @@ function Services() {
   return (
     <div className="services">
       <div className="services__title">
-        <h2>Our Services</h2>
+        <p>Our Services</p>
       </div>
 
       <div className="services__row">
