@@ -34,8 +34,7 @@
   padding-bottom: 50px;
   padding-left: auto;
   padding-right: auto;
-  /* background-color: rgb(233, 227, 227); */
-  background-color: teal;
+  background-color: rgb(233, 227, 227);
 }
 
 .grid__container {

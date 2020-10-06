@@ -18,7 +18,6 @@ function Contact() {
         <Grid className="grid__container" container spacing={2}>
           <Grid className="grid__containerItem" item xs={12} sm={12} md={6}>
             <div className="contact__map">
-              // eslint-disable-next-line jsx-a11y/iframe-has-title
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.9024105233493!2d-122.05073624917259!3d37.90934367963577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808561b0b47cb7d7%3A0x1e96681da067a06!2s1301%20Ygnacio%20Valley%20Rd%2C%20Walnut%20Creek%2C%20CA%2094598!5e0!3m2!1sen!2sus!4v1601475404561!5m2!1sen!2sus"
                 width="100%"

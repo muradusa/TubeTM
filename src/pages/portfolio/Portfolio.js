@@ -18,7 +18,7 @@ function Portfolio() {
         <p>Portfolio</p>
       </div>
       <div className="portfolio__section">
-        <Grid container className="portfolio__container" spacing={2}>
+        <Grid container className="portfolio__container" spacing={1}>
           <Grid item className="portfolio__item" xs={12} sm={6} md={3}>
             <Link to="/portfolio/project1">
               <Project img={project1} title="Project 1" />
@@ -34,7 +34,7 @@ function Portfolio() {
             <Project img={project1} title="Project 4" />
           </Grid>
         </Grid>
-        <Grid container className="portfolio__container" spacing={2}>
+        <Grid container className="portfolio__container" spacing={1}>
           <Grid item className="portfolio__item" xs={12} sm={6} md={3}>
             <Project img={project1} title="Project 5" />
           </Grid>
