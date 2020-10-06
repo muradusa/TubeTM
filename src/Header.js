@@ -13,8 +13,8 @@ import { Grid } from "@material-ui/core";
 function Header() {
   return (
     <div className="header">
-      <Grid container className="header__top">
-        <Grid item className="header__topLeft" xs={12} sm={6}>
+      <div container className="header__top">
+        <div item className="header__topLeft">
           <div className="header__topLeftInfo">
             <PhoneEnabledIcon />
             <p>925-658-1600</p>
@@ -27,19 +27,19 @@ function Header() {
             <LocationOnIcon />
             <p>Walnut Creek, CA</p>
           </div>
-        </Grid>
-        <Grid item className="header__topRight" xs={12} sm={6}>
+        </div>
+        <div item className="header__topRight" xs={12} sm={6}>
           <FacebookIcon />
           <LinkedInIcon />
           <InstagramIcon />
-        </Grid>
-      </Grid>
+        </div>
+      </div>
 
-      <Grid container className="header__bottom">
-        <Grid item className="header__bottomLeft" xs={12} sm={6}>
+      <div className="header__bottom">
+        <div className="header__bottomLeft">
           <img src={logo} alt="" />
-        </Grid>
-        <Grid item className="header__topRight" xs={12} sm={6}>
+        </div>
+        <div item className="header__bottomRight">
           <Link className="header__link" to="/">
             <h3>Home</h3>
           </Link>
@@ -57,8 +57,8 @@ function Header() {
           <Link className="header__link" to="/contact">
             <h3>Contact Us</h3>{" "}
           </Link>
-        </Grid>
-      </Grid>
+        </div>
+      </div>
     </div>
   );
 }
