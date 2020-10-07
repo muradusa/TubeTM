@@ -1,3 +1,8 @@
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
 .about__banner {
   width: 100%;
   background-image: url("https://images.unsplash.com/photo-1528238646472-f2366160b6c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");
@@ -7,13 +12,6 @@
   background-size: cover;
 }
 
-.about__sectionImage img {
-  /* height: 500px;
-  object-fit: contain; */
-  max-width: 100%;
-  max-height: 100%;
-}
-
 .about__title p {
   display: flex;
   justify-content: center;
@@ -21,23 +19,19 @@
   font-weight: 1000;
   color: maroon;
 }
+
 .about__section {
-  margin-left: 100px;
-  margin-right: 100px;
-  background: white;
-  border-radius: 20px;
+  display: flex;
 }
 
-.about__sectionText {
-}
-
-.about__sectionText {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.team__row {
-  margin-left: 15px;
+.about__sectionImage {
+  height: 400px;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: tomato;
 }
 
 .about__teamTitle {

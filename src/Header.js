@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Header.css";
 import PhoneEnabledIcon from "@material-ui/icons/PhoneEnabled";
 import EmailIcon from "@material-ui/icons/Email";
@@ -10,8 +10,21 @@ import logo from "./images/logo.png";
 import { Link } from "react-router-dom";
 
 function Header() {
+  const [show, handleShow] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        handleShow(true);
+      } else handleShow(false);
+    });
+    return () => {
+      window.removeEventListener("scroll");
+    };
+  }, []);
+
   return (
-    <div className="header">
+    <div className={`header ${show && "header__scroll"}`}>
       <div container className="header__top">
         <div item className="header__topLeft">
           <div className="header__topLeftInfo">

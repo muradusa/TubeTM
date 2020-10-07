@@ -1,9 +1,14 @@
 .header {
-  height: 120px;
+  height: auto;
+  min-height: 120px;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  position: sticky;
+
   z-index: 100;
+}
+
+.header__scroll {
 }
 
 .header__top {
