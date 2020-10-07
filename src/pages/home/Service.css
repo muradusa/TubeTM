@@ -1,13 +1,14 @@
 .service {
   display: flex;
-  background-color: white;
+  background-color: rgb(233, 227, 227);
+  border-radius: 10px;
 }
 
 .service__container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: white;
+
   margin: 5px;
 }
 .service__svg {

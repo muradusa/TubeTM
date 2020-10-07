@@ -12,54 +12,49 @@ function Services() {
       </div>
 
       <div className="services__row">
-        <Grid className="grid__container" container spacing={2}>
-          <Grid item xs={12} sm={4} lg={4}>
-            <Service
-              svg={<ReactSVG1 />}
-              title="General Contracting"
-              description="This is going to be description of our services This is going to be description of our services"
-            />
-          </Grid>
-          <Grid item xs={12} sm={4} lg={4}>
-            <Service
-              svg={<ReactSVG1 />}
-              title="General Contracting"
-              description="This is going to be description of our services This is going to be description of our services"
-            />
-          </Grid>
-          <Grid item xs={12} sm={4} lg={4}>
-            <Service
-              svg={<ReactSVG1 />}
-              title="General Contracting"
-              description="This is going to be description of our services This is going to be description of our services"
-            />
-          </Grid>
-        </Grid>
-      </div>
-      <div className="services__row">
-        <Grid className="grid__container" container spacing={2}>
-          <Grid item xs={12} sm={4} lg={4}>
-            <Service
-              svg={<ReactSVG1 />}
-              title="General Contracting"
-              description="This is going to be description of our services This is going to be description of our services"
-            />
-          </Grid>
-          <Grid item xs={12} sm={4} lg={4}>
-            <Service
-              svg={<ReactSVG1 />}
-              title="General Contracting"
-              description="This is going to be description of our services This is going to be description of our services"
-            />
-          </Grid>
-          <Grid item xs={12} sm={4} lg={4}>
-            <Service
-              svg={<ReactSVG1 />}
-              title="General Contracting"
-              description="This is going to be description of our services This is going to be description of our services"
-            />
-          </Grid>
-        </Grid>
+        <div className="services__item">
+          <Service
+            svg={<ReactSVG1 />}
+            title="General Contracting"
+            description="This is going to be description of our services This is going to be description of our services"
+          />
+        </div>
+        <div className="services__item">
+          <Service
+            svg={<ReactSVG1 />}
+            title="General Contracting"
+            description="This is going to be description of our services This is going to be description of our services"
+          />
+        </div>
+        <div className="services__item">
+          <Service
+            svg={<ReactSVG1 />}
+            title="General Contracting"
+            description="This is going to be description of our services This is going to be description of our services"
+          />
+        </div>
+
+        <div className="services__item">
+          <Service
+            svg={<ReactSVG1 />}
+            title="General Contracting"
+            description="This is going to be description of our services This is going to be description of our services"
+          />
+        </div>
+        <div className="services__item">
+          <Service
+            svg={<ReactSVG1 />}
+            title="General Contracting"
+            description="This is going to be description of our services This is going to be description of our services"
+          />
+        </div>
+        <div className="services__item">
+          <Service
+            svg={<ReactSVG1 />}
+            title="General Contracting"
+            description="This is going to be description of our services This is going to be description of our services"
+          />
+        </div>
       </div>
     </div>
   );

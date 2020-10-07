@@ -11,8 +11,13 @@
   font-weight: 1000;
   color: maroon;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .gallery:hover {
   color: teal;
+}
+
+.photoGallery__body {
+  padding-bottom: 30px;
 }

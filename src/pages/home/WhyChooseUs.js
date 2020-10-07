@@ -9,20 +9,20 @@ function WhyChooseUs() {
       <div className="whyChooseUs__title">
         <p>Why Choose Us</p>
       </div>
-      <Grid className="whyChooseUs__counter" container spacing={2}>
-        <Grid item xs={12} sm={6} md={3}>
+      <div className="counter__containerParent">
+        <div className="counter__item">
           <Counter number={100} text="Projects" />
-        </Grid>
-        <Grid item xs={12} sm={6} lg={3}>
+        </div>
+        <div className="counter__item">
           <Counter number={198} text="Happy Customers" />
-        </Grid>
-        <Grid item xs={12} sm={6} lg={3}>
+        </div>
+        <div className="counter__item">
           <Counter number={94} text="Years in Business" />
-        </Grid>
-        <Grid item xs={12} sm={6} lg={3}>
+        </div>
+        <div className="counter__item">
           <Counter number={43} text="Employees" />
-        </Grid>
-      </Grid>
+        </div>
+      </div>
     </div>
   );
 }

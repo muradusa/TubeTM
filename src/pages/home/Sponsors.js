@@ -1,6 +1,7 @@
 import React from "react";
 import "./Sponsors.css";
-import Grid from "@material-ui/core/Grid";
+import Sponsor from "./Sponsor";
+
 import one from "../../images/1.png";
 import two from "../../images/2.png";
 import three from "../../images/3.png";
@@ -13,82 +14,21 @@ import eight from "../../images/8.png";
 function Sponsors() {
   return (
     <div className="sponsors">
-      <Grid className="sponsors__row" container spacing={2}>
-        <Grid
-          className="sponsors__item"
-          style={{ backgroundImage: `url(${one})` }}
-          item
-          xs={12}
-          sm={6}
-          lg={3}
-        ></Grid>
-        <Grid
-          className="sponsors__item"
-          style={{ backgroundImage: `url(${two})` }}
-          item
-          xs={12}
-          sm={6}
-          lg={3}
-        ></Grid>
-        <Grid
-          className="sponsors__item"
-          style={{ backgroundImage: `url(${three})` }}
-          item
-          xs={12}
-          sm={6}
-          lg={3}
-        ></Grid>
-        <Grid
-          className="sponsors__item"
-          style={{ backgroundImage: `url(${four})` }}
-          item
-          xs={12}
-          sm={6}
-          lg={3}
-        ></Grid>
-      </Grid>
-      <Grid className="sponsors__row" container spacing={2}>
-        <Grid
-          className="sponsors__item"
-          style={{ backgroundImage: `url(${five})` }}
-          item
-          xs={12}
-          sm={6}
-          lg={3}
-        >
-          {/* <img src={five} alt="" /> */}
-        </Grid>
-        <Grid
-          className="sponsors__item"
-          style={{ backgroundImage: `url(${six})` }}
-          item
-          xs={12}
-          sm={6}
-          lg={3}
-        >
-          {/* <img src={six} alt="" /> */}
-        </Grid>
-        <Grid
-          className="sponsors__item"
-          style={{ backgroundImage: `url(${seven})` }}
-          item
-          xs={12}
-          sm={6}
-          lg={3}
-        >
-          {/* <img src={seven} alt="" /> */}
-        </Grid>
-        <Grid
-          className="sponsors__item"
-          style={{ backgroundImage: `url(${eight})` }}
-          item
-          xs={12}
-          sm={6}
-          lg={3}
-        >
-          {/* <img src={eight} alt="" /> */}
-        </Grid>
-      </Grid>
+      <Sponsor img={one} />
+
+      <Sponsor img={two} />
+
+      <Sponsor img={three} />
+
+      <Sponsor img={four} />
+
+      <Sponsor img={five} />
+
+      <Sponsor img={six} />
+
+      <Sponsor img={seven} />
+
+      <Sponsor img={eight} />
     </div>
   );
 }

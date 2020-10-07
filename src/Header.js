@@ -8,7 +8,6 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import logo from "./images/logo.png";
 import { Link } from "react-router-dom";
-import { Grid } from "@material-ui/core";
 
 function Header() {
   return (
