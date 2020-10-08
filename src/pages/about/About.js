@@ -18,9 +18,7 @@ function About() {
         <div
           className="about__sectionImage"
           style={{ backgroundImage: `url(${about1}` }}
-        >
-          <span></span>
-        </div>
+        ></div>
 
         <div className="about__sectionText">
           <h3>Why us</h3>
@@ -64,44 +62,70 @@ function About() {
           <p>Our Team</p>
         </div>
         <div className="about__teamItems">
-          <Grid className="team__row" container spacing={5}>
-            <Grid item xs={12} sm={6} md={3}>
-              <Employee photo={greg} name="Greg Lyons" title="President/CEO" />
-            </Grid>
-            <Grid item xs={12} sm={6} md={3}>
-              <Employee
-                photo={greg}
-                name="Kevin Butler"
-                title="Preconstruction Manager"
-              />
-            </Grid>
-            <Grid item xs={12} sm={6} md={3}>
-              <Employee
-                photo={greg}
-                name="James Scott"
-                title="Sr. Project Manager"
-              />
-            </Grid>
-            <Grid item xs={12} sm={6} md={3}>
-              <Employee photo={greg} name="Preet" title="Controller" />
-            </Grid>
-          </Grid>
-        </div>
-        <div className="about__teamItems">
-          <Grid className="team__row" container spacing={5}>
-            <Grid item xs={12} sm={6} md={3}>
-              <Employee photo={greg} name="Greg Lyons" title="President/CEO" />
-            </Grid>
-            <Grid item xs={12} sm={6} md={3}>
-              <Employee photo={greg} name="Greg Lyons" title="President/CEO" />
-            </Grid>
-            <Grid item xs={12} sm={6} md={3}>
-              <Employee photo={greg} name="Greg Lyons" title="President/CEO" />
-            </Grid>
-            <Grid item xs={12} sm={6} md={3}>
-              <Employee photo={greg} name="Greg Lyons" title="President/CEO" />
-            </Grid>
-          </Grid>
+          <div className="about__employee">
+            <Employee
+              className="about__employee"
+              photo={greg}
+              name="Greg Lyons"
+              title="President/CEO"
+            />
+          </div>
+          <div className="about__employee">
+            <Employee
+              className="about__employee"
+              photo={greg}
+              name="Greg Lyons"
+              title="President/CEO"
+            />
+          </div>
+          <div className="about__employee">
+            <Employee
+              className="about__employee"
+              photo={greg}
+              name="Greg Lyons"
+              title="President/CEO"
+            />
+          </div>
+          <div className="about__employee">
+            <Employee
+              className="about__employee"
+              photo={greg}
+              name="Greg Lyons"
+              title="President/CEO"
+            />
+          </div>
+          <div className="about__employee">
+            <Employee
+              className="about__employee"
+              photo={greg}
+              name="Greg Lyons"
+              title="President/CEO"
+            />
+          </div>
+          <div className="about__employee">
+            <Employee
+              className="about__employee"
+              photo={greg}
+              name="Greg Lyons"
+              title="President/CEO"
+            />
+          </div>
+          <div className="about__employee">
+            <Employee
+              className="about__employee"
+              photo={greg}
+              name="Greg Lyons"
+              title="President/CEO"
+            />
+          </div>
+          <div className="about__employee">
+            <Employee
+              className="about__employee"
+              photo={greg}
+              name="Greg Lyons"
+              title="President/CEO"
+            />
+          </div>
         </div>
       </div>
     </div>

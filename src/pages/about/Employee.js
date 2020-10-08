@@ -8,8 +8,11 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 function Employee({ photo, name, title }) {
   return (
     <div className="employee">
-      <div className="employee__photo">
-        <img src={photo} alt="" />
+      <div
+        className="employee__photo"
+        style={{ backgroundImage: `url(${photo})` }}
+      >
+        {/* <img src={photo} alt="" /> */}
       </div>
       <div className="employee__name">
         <p>{name}</p>

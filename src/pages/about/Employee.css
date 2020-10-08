@@ -6,10 +6,18 @@
   border-radius: 30px;
 }
 
-.employee__photo img {
-  border-radius: 30px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+.employee__photo {
+  height: 200px;
+
+  width: 60%;
+  position: relative;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* border-radius: 40px; */
+  /* margin-top: 15px;
+  margin-bottom: 15px; */
 }
 
 .employee__name {
