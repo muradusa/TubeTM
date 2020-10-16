@@ -3,6 +3,7 @@ import "./About.css";
 import Grid from "@material-ui/core/Grid";
 import Employee from "./Employee";
 import greg from "../../images/greg.png";
+import { ConfirmationNumberSharp } from "@material-ui/icons";
 
 const about1 =
   "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80";
