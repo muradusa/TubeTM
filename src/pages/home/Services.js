@@ -3,6 +3,7 @@ import "./Services.css";
 import Service from "./Service";
 import Grid from "@material-ui/core/Grid";
 import { ReactComponent as ReactSVG1 } from "../../images/sketch.svg";
+// import { ReactComponent as Icon1 } from "../../images/icon1.svg";
 
 function Services() {
   return (
@@ -22,14 +23,14 @@ function Services() {
         <div className="services__item">
           <Service
             svg={<ReactSVG1 />}
-            title="General Contracting"
+            title="Construction Managment"
             description="This is going to be description of our services This is going to be description of our services"
           />
         </div>
         <div className="services__item">
           <Service
             svg={<ReactSVG1 />}
-            title="General Contracting"
+            title="Design Build"
             description="This is going to be description of our services This is going to be description of our services"
           />
         </div>
@@ -37,21 +38,21 @@ function Services() {
         <div className="services__item">
           <Service
             svg={<ReactSVG1 />}
-            title="General Contracting"
+            title="Preconstruction"
             description="This is going to be description of our services This is going to be description of our services"
           />
         </div>
         <div className="services__item">
           <Service
             svg={<ReactSVG1 />}
-            title="General Contracting"
+            title="Value Engineering"
             description="This is going to be description of our services This is going to be description of our services"
           />
         </div>
         <div className="services__item">
           <Service
             svg={<ReactSVG1 />}
-            title="General Contracting"
+            title="Sustainable Construction"
             description="This is going to be description of our services This is going to be description of our services"
           />
         </div>

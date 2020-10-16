@@ -1,49 +1,59 @@
+import photo1 from "../../images/projects/1000.png";
+import photo2 from "../../images/projects/APP.png";
+import photo3 from "../../images/projects/Byron.png";
+import photo4 from "../../images/projects/CCWD.png";
+import photo5 from "../../images/projects/Gold.png";
+import photo6 from "../../images/projects/LLNL.png";
+import photo7 from "../../images/projects/Maggiora.png";
+import photo8 from "../../images/projects/Park.png";
+import photo9 from "../../images/projects/Grand.png";
+
 export const photos = [
   {
-    src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
-    width: 4,
-    height: 3,
+    src: photo1,
+    width: 5,
+    height: 4,
     title: "Project 1",
     className: "photo",
   },
   {
-    src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
-    width: 1,
-    height: 1,
-  },
-  {
-    src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
-    width: 3,
+    src: photo2,
+    width: 5,
     height: 4,
   },
   {
-    src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
-    width: 3,
+    src: photo3,
+    width: 5,
     height: 4,
   },
   {
-    src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
-    width: 3,
+    src: photo4,
+    width: 5,
     height: 4,
   },
   {
-    src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
-    width: 4,
-    height: 3,
-  },
-  {
-    src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
-    width: 3,
+    src: photo5,
+    width: 5,
     height: 4,
   },
   {
-    src: "https://source.unsplash.com/PpOHJezOalU/800x599",
-    width: 4,
-    height: 3,
+    src: photo6,
+    width: 5,
+    height: 4,
   },
   {
-    src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
-    width: 4,
-    height: 3,
+    src: photo7,
+    width: 5,
+    height: 4,
+  },
+  {
+    src: photo8,
+    width: 5,
+    height: 4,
+  },
+  {
+    src: photo9,
+    width: 5,
+    height: 4,
   },
 ];
