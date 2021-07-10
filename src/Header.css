@@ -9,6 +9,7 @@
 }
 
 .header__scroll {
+  top: -50px;
 }
 
 .header__top {

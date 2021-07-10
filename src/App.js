@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Contact from "./pages/contact/Contact";
 import Portfolio from "./pages/portfolio/Portfolio";
 import ProjectPage from "./pages/portfolio/ProjectPage";
+import News from "./News";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -15,6 +16,11 @@ function App() {
     <Router>
       <div className="app">
         <Switch>
+          <Route path="/news">
+            <Header />
+            <News />
+            <Footer />
+          </Route>
           <Route path="/portfolio/project1">
             <Header />
             <ProjectPage />
